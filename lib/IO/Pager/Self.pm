@@ -38,6 +38,7 @@ sub pager {
         # child
         $me->();
     }
+    return 1;
 }
 
 1;
